@@ -1,0 +1,16 @@
+{
+  "name": "spam-email-backend",
+  "version": "1.0.0",
+  "description": "An Express JS backend for a Spam Email Classification application. The application runs a python script that uses Naive Bayes Classifier to classify the data. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chirag Chandrashekhar",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
+}
